@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func LoopFunc() {
 	for counter := 0; counter <= 5; counter++ {
 		if counter == 4 {
 			break

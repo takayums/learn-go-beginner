@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func MapFunc() {
 	person := map[string]string{
 		"name": "Asraf", "address": "Jalan Banyuwangi",
 	}

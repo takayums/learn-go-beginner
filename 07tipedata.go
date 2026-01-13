@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func TipeDataFunc() {
 	var nilai32 int32 = 129
 	var nilai64 int64 = int64(nilai32)
 	var nilai16 int16 = int16(nilai32)
@@ -14,9 +14,9 @@ func main() {
 	fmt.Println(nilai8)
 
 	// Konversi string
-	var name = "Asraf"
-	var e = name[0]
-	var eString = string(e)
+	name := "Asraf"
+	e := name[0]
+	eString := string(e)
 
 	fmt.Println(eString)
 }

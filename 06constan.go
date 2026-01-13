@@ -1,21 +1,19 @@
 package main
 
-import "fmt"
-
-func main() {
+func ConsFunc() {
 	const fname = "Asraf"
 	const lname = "Takayuma"
 
-	//error
-	fname = "yuma"
-	lname = "takayum"
+	// error
+	// fname = "yuma"
+	// lname = "takayum"
 
 	const (
 		hname = "Asraf"
 		tname = "Takayuma"
 	)
 
-	//error
-	hname = "yuma"
-	tname = "takayum"
+	// error
+	// hname = "yuma"
+	// tname = "takayum"
 }

@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func ArrayFunc() {
 	var names [3]string
 
 	names[0] = "Asraf"
@@ -12,12 +12,13 @@ func main() {
 	fmt.Println(names)
 
 	// Membuat Array Langsung
-	var array1 = [3]int{1, 2, 3}
+	array1 := [3]int{1, 2, 3}
 	fmt.Println(array1)
 
 	// Membuat Array Tanpa Jumlah-nya
-	var array2 = [...]int{
-		90, 80, 70, 60}
+	array2 := [...]int{
+		90, 80, 70, 60,
+	}
 	fmt.Println(array2)
 	array2[0] = 100
 	fmt.Println(array2)

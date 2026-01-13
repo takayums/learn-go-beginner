@@ -79,7 +79,7 @@ func faktorial(value int) int {
 	}
 }
 
-func main() {
+func FuncFunc() {
 	sayHello()
 
 	sayHelloTo("asraf", "doni")

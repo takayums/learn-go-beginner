@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func ConditionFunc() {
 	name := "Eko"
 
 	if name == "Eko" {

@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func VariableFunc() {
 	// Menggunakan deklarasi tipe data
 	var name string
 
@@ -13,7 +13,7 @@ func main() {
 	fmt.Println(name)
 
 	// Tidak menggunakan deklarasi tipe data
-	var address = "Jalan Kalimantan 10"
+	address := "Jalan Kalimantan 10"
 	fmt.Println(address)
 
 	// Deklarasi var dengan :=

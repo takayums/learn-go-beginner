@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func SliceFunc() {
 	names := [...]string{"Asraf", "As'ad", "Afi"}
 	slice := names[1:3]
 

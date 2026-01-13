@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func TypedocFunc() {
 	type NoKTP string
 
 	var KtpAsraf NoKTP = "888888888"
