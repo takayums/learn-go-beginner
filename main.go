@@ -18,4 +18,8 @@ func main() {
 	// 04Constanta
 	fmt.Println("4. Konstanta")
 	ConsFunc()
+
+	// 05Operator
+	fmt.Println("5. Operator")
+	OperasiFunc()
 }
