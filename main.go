@@ -14,4 +14,8 @@ func main() {
 	// 03TipeData
 	fmt.Println("3. Tipe Data")
 	TipeDataFunc()
+
+	// 04Constanta
+	fmt.Println("4. Konstanta")
+	ConsFunc()
 }
