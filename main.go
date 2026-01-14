@@ -10,4 +10,8 @@ func main() {
 	// 02Variable
 	fmt.Println("2. Variable")
 	VariableFunc()
+
+	// 03TipeData
+	fmt.Println("3. Tipe Data")
+	TipeDataFunc()
 }
