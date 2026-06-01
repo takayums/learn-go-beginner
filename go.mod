@@ -1,3 +1,3 @@
-module learn/go
+module github.com/takayums/learn-go-beginner
 
-go 1.25.1
+go 1.26.3
