@@ -22,4 +22,40 @@ func main() {
 	// 05Operator
 	fmt.Println("5. Operator")
 	OperasiFunc()
+
+	// 06Condition
+	fmt.Println("6. Condition")
+	ConditionFunc()
+
+	// 07Loop
+	fmt.Println("7. Loop")
+	LoopFunc()
+
+	// 08Array
+	fmt.Println("8. Array")
+	ArrayFunc()
+
+	// 09Slice
+	fmt.Println("9. Slice")
+	SliceFunc()
+
+	// 10Map
+	fmt.Println("10. Map")
+	MapFunc()
+
+	// 11TypeDec
+	fmt.Println("11. Type Declaration")
+	TypedocFunc()
+
+	// 12Switch
+	fmt.Println("12. Switch")
+	SwitchFunc()
+
+	// 13Func
+	fmt.Println("13. Function")
+	FuncFunc()
+
+	// 14Pointer
+	fmt.Println("14. Ponter")
+	Pointer()
 }

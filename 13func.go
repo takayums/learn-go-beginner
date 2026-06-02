@@ -79,6 +79,19 @@ func faktorial(value int) int {
 	}
 }
 
+// Clousre
+func Clousre() {
+	counter := 0
+	increment := func() {
+		fmt.Println("Increment")
+		counter++
+	}
+
+	increment()
+	increment()
+	fmt.Println(counter)
+}
+
 func FuncFunc() {
 	sayHello()
 
@@ -121,4 +134,7 @@ func FuncFunc() {
 	// Recursive Func
 	nilaiFaktorial := faktorial(3)
 	fmt.Println("faktorial", nilaiFaktorial)
+
+	// CLousre
+	Clousre()
 }
