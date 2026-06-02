@@ -58,4 +58,8 @@ func main() {
 	// 14Pointer
 	fmt.Println("14. Ponter")
 	Pointer()
+
+	// 15Struct
+	fmt.Println("15. Struct")
+	StructFunc()
 }
