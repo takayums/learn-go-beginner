@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 type student struct {
 	name  string
@@ -11,6 +13,11 @@ type student struct {
 type person struct {
 	student
 	age int
+}
+
+type animal struct {
+	name string
+	tipe string
 }
 
 func StructFunc() {
@@ -56,4 +63,55 @@ func StructFunc() {
 	s7.student.age = 28
 	fmt.Println("S7 age person", s7.age)
 	fmt.Println("S7 age student", s7.student.age)
+
+	// Pengisian nilai sub struct
+	p1 := student{name: "asraf", age: 20}
+	p2 := person{student: p1, age: 25}
+	fmt.Println("Name", p1.name)
+	fmt.Println("Name", p2.name)
+	fmt.Println("Name", p2.age)
+	fmt.Println("Name", p2.student.age)
+
+	// anonymouse struct
+	s10 := struct {
+		animal
+		color string
+	}{
+		animal: animal{"kucing", "omnivora"},
+		color:  "blue",
+	}
+
+	fmt.Println("S10", s10)
+
+	// kombinasi slice dan struct
+	allAnimal := []animal{
+		{"ayama", "omnivora"},
+		{"bebek", "omnivora"},
+		{"anjing", "karnivora"},
+	}
+	fmt.Println("All Slice from animal", allAnimal)
+
+	// inisialisasi slice anonymouse struct
+	allAnimal1 := []struct {
+		animal
+		color string
+	}{
+		{
+			animal: animal{"ayama", "omnivora"},
+			color:  "red",
+		},
+		{
+			animal: animal{"bebek", "omnivora"},
+			color:  "white",
+		},
+	}
+
+	for _, animalItem := range allAnimal1 {
+		fmt.Println(animalItem)
+	}
+	// deklarasi anonymouse struct menggunakan keyword var
+	// nested struct
+	// deklarasi dan inisialisasi struct secara horizontal
+	// tag property dalam struct
+	// type alias
 }
