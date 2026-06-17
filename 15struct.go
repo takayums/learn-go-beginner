@@ -109,9 +109,30 @@ func StructFunc() {
 	for _, animalItem := range allAnimal1 {
 		fmt.Println(animalItem)
 	}
+
 	// deklarasi anonymouse struct menggunakan keyword var
+	var pondok struct {
+		grade int
+	}
+
+	pondok.grade = 2
+
 	// nested struct
-	// deklarasi dan inisialisasi struct secara horizontal
+	type studentB struct {
+		personA struct {
+			name string
+			age  int
+		}
+		grade   int
+		hobbies []string
+	}
+
 	// tag property dalam struct
+	type personB struct {
+		name string `tag1`
+		age  int    `tag2`
+	}
+
 	// type alias
+	type People = personB
 }
