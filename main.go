@@ -62,4 +62,8 @@ func main() {
 	// 15Struct
 	fmt.Println("15. Struct")
 	StructFunc()
+
+	// 16Method
+	fmt.Println("15. Method")
+	Method()
 }
