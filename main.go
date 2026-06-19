@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/takayums/learn-go-beginner/akses"
+)
 
 func main() {
 	// 01HelloWorld
@@ -64,6 +68,10 @@ func main() {
 	StructFunc()
 
 	// 16Method
-	fmt.Println("15. Method")
+	fmt.Println("16. Method")
 	Method()
+
+	// 17AksesLibrary
+	fmt.Println("17. Akses Library")
+	akses.LevelAkses()
 }
