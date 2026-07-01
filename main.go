@@ -74,4 +74,8 @@ func main() {
 	// 17AksesLibrary
 	fmt.Println("17. Akses Library")
 	akses.LevelAkses()
+
+	// 18Interface
+	fmt.Println("18. Interface")
+	Interface()
 }
